@@ -6,7 +6,8 @@
 > cd whatsapp-bot
 # Install the dependencies:
 
-> npm install 
+> npm install
+
 > npm install gify-cli -g
 # Usage
 # Run the Whatsapp bot
