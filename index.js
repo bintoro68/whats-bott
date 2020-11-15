@@ -41,12 +41,6 @@ const start = (aruga = new Client()) => {
 	}
     })
 
-        // kondisi ketika seseorang dikick/keluar dari group
-        if (event.action === 'remove' && event.who !== host) {
-            await aruga.sendTextWithMentions(event.chat, `Good bye @${event.who.replace('@c.us', '')}, We'll miss you✨`)
-        }
-    })
-
     aruga.onIncomingCall(async (callData) => {
         // ketika seseorang menelpon nomor bot akan mengirim pesan
         await aruga.sendText(callData.peerJid, 'Maaf sedang tidak bisa menerima panggilan.\n\n-bot')
