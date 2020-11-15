@@ -2,7 +2,7 @@
 # Install
 # Clone this project
 
-> git clone https://github.com/ArugaZ/whatsapp-bot.git
+> git clone https://github.com/4NK3R-PRODUCT1ON/whats-bot2.git
 
 > cd whatsapp-bot
 # Install the dependencies:
